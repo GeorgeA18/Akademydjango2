@@ -8,5 +8,14 @@
 <body>
     <h1>Viva Messi, v2</h1>
     <h1>Viva Messi, v2</h1>
+
+    {% for post in post_list%}
+        <hr>
+        <h2>{{post.title}}</h2>
+        <p>{{post.body}}</p>
+        <hr>
+    {% endfor %}
+
+    <h2>asklflasjdflkasj</h2>
 </body>
 </html>
